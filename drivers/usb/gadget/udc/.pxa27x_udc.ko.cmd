@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/pxa27x_udc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/pxa27x_udc.ko drivers/usb/gadget/udc/pxa27x_udc.o drivers/usb/gadget/udc/pxa27x_udc.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/usb/gadget/udc/pxa27x_udc.ko

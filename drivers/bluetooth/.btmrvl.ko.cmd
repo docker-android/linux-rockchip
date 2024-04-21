@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btmrvl.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/bluetooth/btmrvl.ko drivers/bluetooth/btmrvl.o drivers/bluetooth/btmrvl.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/bluetooth/btmrvl.ko

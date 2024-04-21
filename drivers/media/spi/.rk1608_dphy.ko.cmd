@@ -1,0 +1,1 @@
+cmd_drivers/media/spi/rk1608_dphy.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/spi/rk1608_dphy.ko drivers/media/spi/rk1608_dphy.o drivers/media/spi/rk1608_dphy.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/spi/rk1608_dphy.ko

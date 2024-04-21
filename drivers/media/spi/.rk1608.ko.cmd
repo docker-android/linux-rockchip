@@ -1,0 +1,1 @@
+cmd_drivers/media/spi/rk1608.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/spi/rk1608.ko drivers/media/spi/rk1608.o drivers/media/spi/rk1608.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/spi/rk1608.ko

@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/ulpi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/common/ulpi.ko drivers/usb/common/ulpi.o drivers/usb/common/ulpi.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/usb/common/ulpi.ko

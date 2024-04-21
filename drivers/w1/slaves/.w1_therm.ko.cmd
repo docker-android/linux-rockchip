@@ -1,0 +1,1 @@
+cmd_drivers/w1/slaves/w1_therm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/w1/slaves/w1_therm.ko drivers/w1/slaves/w1_therm.o drivers/w1/slaves/w1_therm.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/w1/slaves/w1_therm.ko

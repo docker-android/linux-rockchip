@@ -1,0 +1,1 @@
+cmd_drivers/md/bcache/bcache.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/md/bcache/bcache.ko drivers/md/bcache/bcache.o drivers/md/bcache/bcache.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/md/bcache/bcache.ko

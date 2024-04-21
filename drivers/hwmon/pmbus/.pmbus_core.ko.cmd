@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/pmbus_core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/pmbus_core.ko drivers/hwmon/pmbus/pmbus_core.o drivers/hwmon/pmbus/pmbus_core.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/pmbus/pmbus_core.ko

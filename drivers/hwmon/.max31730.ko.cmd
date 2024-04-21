@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/max31730.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/max31730.ko drivers/hwmon/max31730.o drivers/hwmon/max31730.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/max31730.ko

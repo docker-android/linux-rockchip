@@ -1,0 +1,1 @@
+cmd_lib/crc64.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o lib/crc64.ko lib/crc64.o lib/crc64.mod.o;  make -f ./arch/arm64/Makefile.postlink lib/crc64.ko

@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/hall/och165t_hall.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/sensors/hall/och165t_hall.ko drivers/input/sensors/hall/och165t_hall.o drivers/input/sensors/hall/och165t_hall.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/input/sensors/hall/och165t_hall.ko

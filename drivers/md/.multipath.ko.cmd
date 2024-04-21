@@ -1,0 +1,1 @@
+cmd_drivers/md/multipath.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/md/multipath.ko drivers/md/multipath.o drivers/md/multipath.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/md/multipath.ko

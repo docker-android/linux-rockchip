@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/drivetemp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/drivetemp.ko drivers/hwmon/drivetemp.o drivers/hwmon/drivetemp.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/drivetemp.ko

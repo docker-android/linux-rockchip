@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/hall/modules.order := {   echo drivers/input/sensors/hall/och165t_hall.ko;   echo drivers/input/sensors/hall/mh248.ko; :; } | awk '!x[$$0]++' - > drivers/input/sensors/hall/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/mv_u3d_core.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/mv_u3d_core.ko drivers/usb/gadget/udc/mv_u3d_core.o drivers/usb/gadget/udc/mv_u3d_core.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/usb/gadget/udc/mv_u3d_core.ko

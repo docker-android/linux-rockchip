@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/plx_pci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/sja1000/plx_pci.ko drivers/net/can/sja1000/plx_pci.o drivers/net/can/sja1000/plx_pci.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/net/can/sja1000/plx_pci.ko

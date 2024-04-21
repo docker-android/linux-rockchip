@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/accel/mma8452.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/sensors/accel/mma8452.ko drivers/input/sensors/accel/mma8452.o drivers/input/sensors/accel/mma8452.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/input/sensors/accel/mma8452.ko

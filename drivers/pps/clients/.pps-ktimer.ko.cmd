@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-ktimer.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/pps/clients/pps-ktimer.ko drivers/pps/clients/pps-ktimer.o drivers/pps/clients/pps-ktimer.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/pps/clients/pps-ktimer.ko

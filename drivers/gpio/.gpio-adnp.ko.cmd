@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-adnp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-adnp.ko drivers/gpio/gpio-adnp.o drivers/gpio/gpio-adnp.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/gpio/gpio-adnp.ko

@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/ttpci/dvb-ttpci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/ttpci/dvb-ttpci.ko drivers/media/pci/ttpci/dvb-ttpci.o drivers/media/pci/ttpci/dvb-ttpci.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/pci/ttpci/dvb-ttpci.ko

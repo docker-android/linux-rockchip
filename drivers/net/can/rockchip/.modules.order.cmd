@@ -1,0 +1,1 @@
+cmd_drivers/net/can/rockchip/modules.order := {   echo drivers/net/can/rockchip/rockchip_can.ko;   echo drivers/net/can/rockchip/rockchip_canfd.ko; :; } | awk '!x[$$0]++' - > drivers/net/can/rockchip/modules.order

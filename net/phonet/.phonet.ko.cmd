@@ -1,0 +1,1 @@
+cmd_net/phonet/phonet.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/phonet/phonet.ko net/phonet/phonet.o net/phonet/phonet.mod.o;  make -f ./arch/arm64/Makefile.postlink net/phonet/phonet.ko

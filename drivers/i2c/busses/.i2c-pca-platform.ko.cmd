@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-pca-platform.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-pca-platform.ko drivers/i2c/busses/i2c-pca-platform.o drivers/i2c/busses/i2c-pca-platform.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/i2c/busses/i2c-pca-platform.ko

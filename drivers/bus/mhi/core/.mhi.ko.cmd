@@ -1,0 +1,1 @@
+cmd_drivers/bus/mhi/core/mhi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/bus/mhi/core/mhi.ko drivers/bus/mhi/core/mhi.o drivers/bus/mhi/core/mhi.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/bus/mhi/core/mhi.ko

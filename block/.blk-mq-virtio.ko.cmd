@@ -1,0 +1,1 @@
+cmd_block/blk-mq-virtio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o block/blk-mq-virtio.ko block/blk-mq-virtio.o block/blk-mq-virtio.mod.o;  make -f ./arch/arm64/Makefile.postlink block/blk-mq-virtio.ko

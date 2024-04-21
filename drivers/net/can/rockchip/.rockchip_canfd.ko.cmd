@@ -1,0 +1,1 @@
+cmd_drivers/net/can/rockchip/rockchip_canfd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/rockchip/rockchip_canfd.ko drivers/net/can/rockchip/rockchip_canfd.o drivers/net/can/rockchip/rockchip_canfd.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/net/can/rockchip/rockchip_canfd.ko

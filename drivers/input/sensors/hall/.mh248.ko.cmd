@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/hall/mh248.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/sensors/hall/mh248.ko drivers/input/sensors/hall/mh248.o drivers/input/sensors/hall/mh248.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/input/sensors/hall/mh248.ko

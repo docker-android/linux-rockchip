@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-simtec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-simtec.ko drivers/i2c/busses/i2c-simtec.o drivers/i2c/busses/i2c-simtec.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/i2c/busses/i2c-simtec.ko

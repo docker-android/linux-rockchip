@@ -1,0 +1,1 @@
+cmd_net/dccp/dccp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/dccp/dccp.ko net/dccp/dccp.o net/dccp/dccp.mod.o;  make -f ./arch/arm64/Makefile.postlink net/dccp/dccp.ko

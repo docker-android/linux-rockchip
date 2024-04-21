@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83795.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/w83795.ko drivers/hwmon/w83795.o drivers/hwmon/w83795.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/w83795.ko

@@ -1,0 +1,1 @@
+cmd_net/sched/cls_rsvp6.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/sched/cls_rsvp6.ko net/sched/cls_rsvp6.o net/sched/cls_rsvp6.mod.o;  make -f ./arch/arm64/Makefile.postlink net/sched/cls_rsvp6.ko

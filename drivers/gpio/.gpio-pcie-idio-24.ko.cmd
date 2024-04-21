@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-pcie-idio-24.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-pcie-idio-24.ko drivers/gpio/gpio-pcie-idio-24.o drivers/gpio/gpio-pcie-idio-24.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/gpio/gpio-pcie-idio-24.ko

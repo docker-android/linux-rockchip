@@ -1,0 +1,1 @@
+cmd_net/qrtr/ns.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/qrtr/ns.ko net/qrtr/ns.o net/qrtr/ns.mod.o;  make -f ./arch/arm64/Makefile.postlink net/qrtr/ns.ko

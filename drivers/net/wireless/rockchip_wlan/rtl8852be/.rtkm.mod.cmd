@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rockchip_wlan/rtl8852be/rtkm.mod := { echo  drivers/net/wireless/rockchip_wlan/rtl8852be/core/rtw_prealloc.o drivers/net/wireless/rockchip_wlan/rtl8852be/core/rtw_mem.o;  echo; } > drivers/net/wireless/rockchip_wlan/rtl8852be/rtkm.mod

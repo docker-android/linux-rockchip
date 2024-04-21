@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/symbolserial.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/symbolserial.ko drivers/usb/serial/symbolserial.o drivers/usb/serial/symbolserial.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/usb/serial/symbolserial.ko

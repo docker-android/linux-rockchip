@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-mux.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-mux.ko drivers/spi/spi-mux.o drivers/spi/spi-mux.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/spi/spi-mux.ko

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/dummy_hcd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/dummy_hcd.ko drivers/usb/gadget/udc/dummy_hcd.o drivers/usb/gadget/udc/dummy_hcd.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/usb/gadget/udc/dummy_hcd.ko

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/modules.order := {   cat drivers/input/touchscreen/focaltech_touch/modules.order;   cat drivers/input/touchscreen/gt1x/modules.order;   cat drivers/input/touchscreen/gt9xx/modules.order;   echo drivers/input/touchscreen/ads7846.ko; :; } | awk '!x[$$0]++' - > drivers/input/touchscreen/modules.order

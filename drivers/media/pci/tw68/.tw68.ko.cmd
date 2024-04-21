@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/tw68/tw68.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/tw68/tw68.ko drivers/media/pci/tw68/tw68.o drivers/media/pci/tw68/tw68.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/pci/tw68/tw68.ko

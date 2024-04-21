@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/sc200ai.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/sc200ai.ko drivers/media/i2c/sc200ai.o drivers/media/i2c/sc200ai.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/i2c/sc200ai.ko

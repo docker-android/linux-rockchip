@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/lt7911uxc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/lt7911uxc.ko drivers/media/i2c/lt7911uxc.o drivers/media/i2c/lt7911uxc.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/i2c/lt7911uxc.ko

@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ipt_REJECT.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/ipt_REJECT.ko net/ipv4/netfilter/ipt_REJECT.o net/ipv4/netfilter/ipt_REJECT.mod.o;  make -f ./arch/arm64/Makefile.postlink net/ipv4/netfilter/ipt_REJECT.ko

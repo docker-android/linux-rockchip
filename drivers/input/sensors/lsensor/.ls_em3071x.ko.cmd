@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/lsensor/ls_em3071x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/sensors/lsensor/ls_em3071x.ko drivers/input/sensors/lsensor/ls_em3071x.o drivers/input/sensors/lsensor/ls_em3071x.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/input/sensors/lsensor/ls_em3071x.ko

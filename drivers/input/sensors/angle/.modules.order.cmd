@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/angle/modules.order := {   echo drivers/input/sensors/angle/angle_kxtik.ko;   echo drivers/input/sensors/angle/angle_lis3dh.ko; :; } | awk '!x[$$0]++' - > drivers/input/sensors/angle/modules.order

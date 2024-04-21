@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/accel/da215s/gs-da215s.mod := { echo  drivers/input/sensors/accel/da215s/da215s.o drivers/input/sensors/accel/da215s/da215s_core.o;  echo; } > drivers/input/sensors/accel/da215s/gs-da215s.mod

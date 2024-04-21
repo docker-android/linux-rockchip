@@ -1,0 +1,1 @@
+cmd_net/caif/caif_socket.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/caif/caif_socket.ko net/caif/caif_socket.o net/caif/caif_socket.mod.o;  make -f ./arch/arm64/Makefile.postlink net/caif/caif_socket.ko

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtw88/rtw88_8821c.mod := { echo  drivers/net/wireless/realtek/rtw88/rtw8821c.o drivers/net/wireless/realtek/rtw88/rtw8821c_table.o;  echo; } > drivers/net/wireless/realtek/rtw88/rtw88_8821c.mod

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/r8125/built-in.a := echo >/dev/null; rm -f drivers/net/ethernet/realtek/r8125/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/realtek/r8125/built-in.a drivers/net/ethernet/realtek/r8125/r8125_n.o drivers/net/ethernet/realtek/r8125/rtl_eeprom.o drivers/net/ethernet/realtek/r8125/rtltool.o drivers/net/ethernet/realtek/r8125/r8125_rss.o

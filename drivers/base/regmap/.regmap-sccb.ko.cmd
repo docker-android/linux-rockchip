@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/regmap-sccb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/base/regmap/regmap-sccb.ko drivers/base/regmap/regmap-sccb.o drivers/base/regmap/regmap-sccb.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/base/regmap/regmap-sccb.ko

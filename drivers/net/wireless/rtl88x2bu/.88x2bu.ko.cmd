@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtl88x2bu/88x2bu.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/rtl88x2bu/88x2bu.ko drivers/net/wireless/rtl88x2bu/88x2bu.o drivers/net/wireless/rtl88x2bu/88x2bu.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/net/wireless/rtl88x2bu/88x2bu.ko

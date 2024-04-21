@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/accel/icm2060x_acc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/sensors/accel/icm2060x_acc.ko drivers/input/sensors/accel/icm2060x_acc.o drivers/input/sensors/accel/icm2060x_acc.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/input/sensors/accel/icm2060x_acc.ko

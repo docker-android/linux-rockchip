@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/m2m-deinterlace.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/m2m-deinterlace.ko drivers/media/platform/m2m-deinterlace.o drivers/media/platform/m2m-deinterlace.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/platform/m2m-deinterlace.ko

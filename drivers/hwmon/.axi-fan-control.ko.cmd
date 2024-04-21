@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/axi-fan-control.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/axi-fan-control.ko drivers/hwmon/axi-fan-control.o drivers/hwmon/axi-fan-control.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/axi-fan-control.ko

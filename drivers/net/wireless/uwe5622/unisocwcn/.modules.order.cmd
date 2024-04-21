@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/uwe5622/unisocwcn/modules.order := {   echo drivers/net/wireless/uwe5622/unisocwcn/uwe5622_bsp_sdio.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/uwe5622/unisocwcn/modules.order

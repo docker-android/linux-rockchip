@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/mr75203.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/mr75203.ko drivers/hwmon/mr75203.o drivers/hwmon/mr75203.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/mr75203.ko

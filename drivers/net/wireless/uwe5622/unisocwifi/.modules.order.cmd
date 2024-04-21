@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/uwe5622/unisocwifi/modules.order := {   echo drivers/net/wireless/uwe5622/unisocwifi/sprdwl_ng.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/uwe5622/unisocwifi/modules.order

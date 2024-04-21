@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/saa7146/hexium_orion.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/saa7146/hexium_orion.ko drivers/media/pci/saa7146/hexium_orion.o drivers/media/pci/saa7146/hexium_orion.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/pci/saa7146/hexium_orion.ko

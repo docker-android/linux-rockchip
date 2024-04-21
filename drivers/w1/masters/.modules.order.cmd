@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/modules.order := {   echo drivers/w1/masters/matrox_w1.ko;   echo drivers/w1/masters/ds2490.ko;   echo drivers/w1/masters/ds2482.ko;   echo drivers/w1/masters/ds1wm.ko;   echo drivers/w1/masters/w1-gpio.ko;   echo drivers/w1/masters/sgi_w1.ko; :; } | awk '!x[$$0]++' - > drivers/w1/masters/modules.order

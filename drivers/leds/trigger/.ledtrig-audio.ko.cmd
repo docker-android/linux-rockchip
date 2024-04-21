@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-audio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-audio.ko drivers/leds/trigger/ledtrig-audio.o drivers/leds/trigger/ledtrig-audio.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/leds/trigger/ledtrig-audio.ko

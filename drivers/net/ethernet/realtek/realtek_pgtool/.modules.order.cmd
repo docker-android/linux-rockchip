@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/realtek_pgtool/modules.order := {   echo drivers/net/ethernet/realtek/realtek_pgtool/pgdrv.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/realtek/realtek_pgtool/modules.order

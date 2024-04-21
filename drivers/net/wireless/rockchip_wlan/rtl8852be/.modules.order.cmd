@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rockchip_wlan/rtl8852be/modules.order := {   echo drivers/net/wireless/rockchip_wlan/rtl8852be/8852be.ko;   echo drivers/net/wireless/rockchip_wlan/rtl8852be/rtkm.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/rockchip_wlan/rtl8852be/modules.order

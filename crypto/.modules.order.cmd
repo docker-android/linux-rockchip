@@ -1,0 +1,1 @@
+cmd_crypto/modules.order := {   cat crypto/asymmetric_keys/modules.order;   echo crypto/seqiv.ko;   echo crypto/echainiv.ko;   echo crypto/md4.ko;   echo crypto/michael_mic.ko;   echo crypto/authenc.ko;   echo crypto/authencesn.ko;   echo crypto/zstd.ko;   echo crypto/essiv.ko;   cat crypto/async_tx/modules.order; :; } | awk '!x[$$0]++' - > crypto/modules.order

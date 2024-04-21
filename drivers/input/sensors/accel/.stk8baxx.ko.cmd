@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/accel/stk8baxx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/sensors/accel/stk8baxx.ko drivers/input/sensors/accel/stk8baxx.o drivers/input/sensors/accel/stk8baxx.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/input/sensors/accel/stk8baxx.ko

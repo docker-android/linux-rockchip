@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cx25821/modules.order := {   echo drivers/media/pci/cx25821/cx25821.ko;   echo drivers/media/pci/cx25821/cx25821-alsa.ko; :; } | awk '!x[$$0]++' - > drivers/media/pci/cx25821/modules.order

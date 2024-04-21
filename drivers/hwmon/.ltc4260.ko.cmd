@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ltc4260.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/ltc4260.ko drivers/hwmon/ltc4260.o drivers/hwmon/ltc4260.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/ltc4260.ko

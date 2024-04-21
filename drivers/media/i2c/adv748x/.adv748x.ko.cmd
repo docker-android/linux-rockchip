@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/adv748x/adv748x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/adv748x/adv748x.ko drivers/media/i2c/adv748x/adv748x.o drivers/media/i2c/adv748x/adv748x.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/i2c/adv748x/adv748x.ko

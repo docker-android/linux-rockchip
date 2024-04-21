@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/modules.order := {   echo drivers/net/phy/bcm-phy-lib.ko;   echo drivers/net/phy/broadcom.ko;   echo drivers/net/phy/microchip.ko;   echo drivers/net/phy/smsc.ko; :; } | awk '!x[$$0]++' - > drivers/net/phy/modules.order

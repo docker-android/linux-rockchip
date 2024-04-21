@@ -1,0 +1,1 @@
+cmd_drivers/scsi/modules.order := {   echo drivers/scsi/scsi_transport_iscsi.ko;   echo drivers/scsi/libiscsi.ko;   echo drivers/scsi/libiscsi_tcp.ko;   echo drivers/scsi/iscsi_tcp.ko;   echo drivers/scsi/st.ko;   echo drivers/scsi/ch.ko; :; } | awk '!x[$$0]++' - > drivers/scsi/modules.order

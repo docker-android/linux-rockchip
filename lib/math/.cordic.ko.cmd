@@ -1,0 +1,1 @@
+cmd_lib/math/cordic.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o lib/math/cordic.ko lib/math/cordic.o lib/math/cordic.mod.o;  make -f ./arch/arm64/Makefile.postlink lib/math/cordic.ko

@@ -1,0 +1,1 @@
+cmd_drivers/virtio/virtio_ring.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/virtio/virtio_ring.ko drivers/virtio/virtio_ring.o drivers/virtio/virtio_ring.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/virtio/virtio_ring.ko

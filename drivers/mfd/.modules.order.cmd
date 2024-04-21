@@ -1,0 +1,1 @@
+cmd_drivers/mfd/modules.order := {   cat drivers/mfd/rkx110_x120/modules.order;   echo drivers/mfd/rdc321x-southbridge.ko;   echo drivers/mfd/wl1273-core.ko; :; } | awk '!x[$$0]++' - > drivers/mfd/modules.order

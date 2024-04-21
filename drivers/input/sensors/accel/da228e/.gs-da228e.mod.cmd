@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/accel/da228e/gs-da228e.mod := { echo  drivers/input/sensors/accel/da228e/da228e.o drivers/input/sensors/accel/da228e/da228e_core.o;  echo; } > drivers/input/sensors/accel/da228e/gs-da228e.mod

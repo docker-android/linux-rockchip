@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/aic8800_sdio/modules.order := {   cat drivers/net/wireless/aic8800_sdio/aic8800_btlpm/modules.order;   cat drivers/net/wireless/aic8800_sdio/aic8800_fdrv/modules.order;   cat drivers/net/wireless/aic8800_sdio/aic8800_bsp/modules.order; :; } | awk '!x[$$0]++' - > drivers/net/wireless/aic8800_sdio/modules.order

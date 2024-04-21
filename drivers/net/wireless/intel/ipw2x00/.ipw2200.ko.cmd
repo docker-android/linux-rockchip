@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intel/ipw2x00/ipw2200.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/intel/ipw2x00/ipw2200.ko drivers/net/wireless/intel/ipw2x00/ipw2200.o drivers/net/wireless/intel/ipw2x00/ipw2200.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/net/wireless/intel/ipw2x00/ipw2200.ko

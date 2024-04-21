@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_dbgp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_dbgp.ko drivers/usb/gadget/legacy/g_dbgp.o drivers/usb/gadget/legacy/g_dbgp.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/usb/gadget/legacy/g_dbgp.ko

@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/saa7146/modules.order := {   echo drivers/media/pci/saa7146/mxb.ko;   echo drivers/media/pci/saa7146/hexium_orion.ko;   echo drivers/media/pci/saa7146/hexium_gemini.ko; :; } | awk '!x[$$0]++' - > drivers/media/pci/saa7146/modules.order

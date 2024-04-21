@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/compass/modules.order := {   echo drivers/input/sensors/compass/ak8975.ko;   echo drivers/input/sensors/compass/ak8963.ko;   echo drivers/input/sensors/compass/ak09911.ko;   echo drivers/input/sensors/compass/ak09918.ko; :; } | awk '!x[$$0]++' - > drivers/input/sensors/compass/modules.order

@@ -1,0 +1,1 @@
+cmd_net/decnet/decnet.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o net/decnet/decnet.ko net/decnet/decnet.o net/decnet/decnet.mod.o;  make -f ./arch/arm64/Makefile.postlink net/decnet/decnet.ko

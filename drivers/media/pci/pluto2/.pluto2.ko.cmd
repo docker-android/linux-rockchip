@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/pluto2/pluto2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/pluto2/pluto2.ko drivers/media/pci/pluto2/pluto2.o drivers/media/pci/pluto2/pluto2.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/pci/pluto2/pluto2.ko

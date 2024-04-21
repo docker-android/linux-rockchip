@@ -1,25 +1,20 @@
-Source: linux-rockchip-5.10
+Source: linux-5.10.160
 Section: kernel
 Priority: optional
-Maintainer: Joshua Riek <jjriek@verizon.net>
-Standards-Version: 4.6.0
-Build-Depends: bc, rsync, kmod, cpio, build-essential, u-boot-tools, bison, python3 | python, python-is-python3 | python-is-python2, flex | flex:native , , libssl-dev:native
-Vcs-Git: https://github.com/Joshua-Riek/linux-rockchip.git
+Maintainer: root <root@ubuntu>
+Rules-Requires-Root: no
+Build-Depends: bc, rsync, kmod, cpio, bison, flex | flex:native , , libssl-dev:native
+Homepage: https://www.kernel.org/
 
-Package: linux-image-5.10.160-rockchip
+Package: linux-image-5.10.160
 Architecture: arm64
-Description: Linux kernel image for version 5.10.160 on arm64
- This package contains the Linux kernel image for version 5.10.160 arm64.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-rockchip-5.10 meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
+Description: Linux kernel, version 5.10.160
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.160.
 
-Package: linux-headers-5.10.160-rockchip
+Package: linux-headers-5.10.160
 Architecture: arm64
-Description: Linux kernel headers for version 5.10.160 on arm64
- This package contains the Linux kernel headers for version 5.10.160 arm64.
+Description: Linux kernel headers for 5.10.160 on arm64
+ This package provides kernel header files for 5.10.160 on arm64
  .
- You likely do not want to install this package directly. Instead, install
- the linux-rockchip-5.10 meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
+ This is useful for people who need to build external modules

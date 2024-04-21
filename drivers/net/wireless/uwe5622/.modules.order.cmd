@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/uwe5622/modules.order := {   cat drivers/net/wireless/uwe5622/unisocwcn/modules.order;   cat drivers/net/wireless/uwe5622/unisocwifi/modules.order;   cat drivers/net/wireless/uwe5622/tty-sdio/modules.order; :; } | awk '!x[$$0]++' - > drivers/net/wireless/uwe5622/modules.order

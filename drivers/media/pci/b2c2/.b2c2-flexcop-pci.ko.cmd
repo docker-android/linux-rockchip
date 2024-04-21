@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/b2c2/b2c2-flexcop-pci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/b2c2/b2c2-flexcop-pci.ko drivers/media/pci/b2c2/b2c2-flexcop-pci.o drivers/media/pci/b2c2/b2c2-flexcop-pci.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/media/pci/b2c2/b2c2-flexcop-pci.ko

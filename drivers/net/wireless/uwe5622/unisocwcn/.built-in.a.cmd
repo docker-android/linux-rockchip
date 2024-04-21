@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/uwe5622/unisocwcn/built-in.a := echo >/dev/null; rm -f drivers/net/wireless/uwe5622/unisocwcn/built-in.a; aarch64-linux-gnu-ar cDPrST drivers/net/wireless/uwe5622/unisocwcn/built-in.a 

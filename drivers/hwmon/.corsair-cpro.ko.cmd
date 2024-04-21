@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/corsair-cpro.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/corsair-cpro.ko drivers/hwmon/corsair-cpro.o drivers/hwmon/corsair-cpro.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/hwmon/corsair-cpro.ko

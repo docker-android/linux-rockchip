@@ -1,0 +1,1 @@
+cmd_drivers/net/can/cc770/cc770_platform.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/can/cc770/cc770_platform.ko drivers/net/can/cc770/cc770_platform.o drivers/net/can/cc770/cc770_platform.mod.o;  make -f ./arch/arm64/Makefile.postlink drivers/net/can/cc770/cc770_platform.ko
